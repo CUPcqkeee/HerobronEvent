@@ -1,0 +1,6 @@
+name: Herobrine
+version: '${project.version}'
+main: me.cupcqkeee.herobrine.Herobrine
+api-version: '1.20'
+author: CUPcqkeee
+description: Ивент на смотрящего Херобрина
