@@ -1,26 +1,14 @@
-# Конфигурационный файл для плагина Herobrine
+# by CUPcqkeee
 
-# Шанс появления NPC в процентах (от 0 до 1)
-spawnChance: 0.2
-
-# Расстояние, на котором может появиться NPC от игрока
-spawnDistance: 10
-
-# Имя скина для NPC
-npcSkin: Steve
-
-# Продолжительность события в секундах
-eventDuration: 60
-
-# Звук, который будет проигрываться при появлении NPC
-npcStareSound: ENTITY_BLAZE_AMBIENT
-
-# Список сообщений для ActionBar
+skin: "Herobrine" # Имя скина для НПС
+teleportSound: "ENTITY_ENDERMAN_TELEPORT" # Звук телепортации НПС
+deathSound: "ENTITY_BLAZE_DEATH" # Звук при пропаже НПС
+minSpawnDistance: 5 # Минимальное расстояние для спавна НПС (в блоках)
+maxSpawnDistance: 7 # Максимальное расстояние для спавна НПС (в блоках)
+durationEvent: 60 # В секундах | 60*20ticks - 2m
+chanceSpawn: 20 # Процентное соотношение, то есть 20 = 20% ; 50 = 50% и т.д.
+particle-type: REDSTONE # Вид партикла
 actionBarMessages:
-  - "Загадочный НПС появился рядом!"
-  - "Остерегайтесь теней..."
-  - "Что это было?!"
-
-
-# plugin.getPluginConfig().getString("npcStareSound"));
-# plugin.getPluginConfig().getStringList("actionBarMessages");
+  - "Тестовое сообщение 1"
+  - "Тестовое сообщение 2"
+  - "Тестовое сообщение 3"
